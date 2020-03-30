@@ -2,11 +2,11 @@
 #system('say Hello world!')
 from os import system
 import speech_recognition as sr #pip install speechRecognition
-import datetime
+import datetime #time
 import wikipedia #pip install wikipedia
-import webbrowser
+import webbrowser 
+import smtplib #email
 import os
-import smtplib
 
 def wishMe():
     hour = int(datetime.datetime.now().hour)
